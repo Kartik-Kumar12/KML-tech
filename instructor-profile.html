@@ -297,108 +297,685 @@
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="card border-0 mb-lg-0">
-                              <div class="card-header d-flex align-items-center">
-                                  <div class="h2 mb-0 mr-3">116</div>
-                                  <div class="flex">
-                                      <p class="card-title">Angular</p>
-                                      <p class="card-subtitle text-50">Best score</p>
-                                  </div>
-                                  <div class="dropdown">
-                                      <a href="#" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-toggle="dropdown">Popular Topics</a>
-                                      <div class="dropdown-menu dropdown-menu-right">
-                                          <a href="" class="dropdown-item">Popular Topics</a>
-                                          <a href="" class="dropdown-item">Web Design</a>
-                                      </div>
-                                  </div>
+                              <div  style="text-align:center;"class="card-header">
+                                  <h3>Personal Details</h3>
                               </div>
-                              <div class="card-body p-24pt">
-                                  <div class="chart" style="height: 344px;"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                                      <canvas id="topicIqChart" class="chart-canvas js-update-chart-line chartjs-render-monitor" data-chart-hide-axes="true" data-chart-points="true" data-chart-suffix=" points" data-chart-line-border-color="primary" width="495" height="430" style="display: block; height: 344px; width: 396px;"></canvas>
-                                  </div>
-                              </div>
+                              <!-- CONTENT -->
+                              <div class="table-responsive"style="margin: 0 auto;padding:20px 20px 20px 50px" data-toggle="lists" data-lists-sort-by="js-lists-values-employee-name"
+                                            data-lists-values='["js-lists-values-employee-name", "js-lists-values-employer-name", "js-lists-values-projects", "js-lists-values-activity", "js-lists-values-earnings"]'>
+                                            <table class="table mb-0 thead-border-top-0 table-nowrap">
+
+                                              <tbody class="list" id="users">
+
+                                                <tr >
+
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+                                                        <span class="avatar-title rounded-circle">MD</span>
+                                                      </div> -->
+                                                      <!-- <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i> -->
+                                                      <div class="media-body"style="margin-left:35px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:20px;">Position </strong></p>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:0px;">
+
+                                                    <a href="" class="chip chip-outline-secondary">Instructor</a>
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr >
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+                                                        <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">email</i></span>
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+                                                      <div class="media-body"style="margin-left:10px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:15px;">Department </strong></p>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:none;">
+
+
+                                                    <p style="margin:0 auto;">Computer Science</p>
+
+
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr >
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+                                                        <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">email</i></span>
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+                                                      <div class="media-body"style="margin-left:10px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:15px;">Sex </strong></p>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:none;">
+
+
+                                                    <p style="margin:0 auto;">Female</p>
+
+
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr >
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+                                                        <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">email</i></span>
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+                                                      <div class="media-body"style="margin-left:10px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:15px;">Date of Birth</strong></p>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:none;">
+
+
+                                                    <p style="margin:0 auto;">02.12.1981</p>
+
+
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr >
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+                                                        <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">email</i></span>
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+                                                      <div class="media-body"style="margin-left:10px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:15px;">Email </strong></p>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:none;">
+
+
+                                                    <p style="margin:0 auto;">michael12@gmail.com</p>
+
+
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr>
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+
+                                                        <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">phone_iphone</i></span>
+
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+
+                                                      <div class="media-body"style="margin-left:10px;">
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong  style="font-size:15px;">Phone No. </strong></p>
+                                                          <small class="js-lists-values-employee-email text-50"></small>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td >
+
+
+
+                                                  <td style="border:0px;">
+
+
+                                                    <p style="margin:0 auto;">+24279045345</p>
+
+
+                                                  </td>
+
+
+                                                </tr>
+                                                <tr>
+
+
+                                                  <td style="border:0px;">
+
+                                                    <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                                      <!-- <div class="avatar avatar-sm mr-8pt">
+
+                                                    <span class="avatar-title rounded-circle"><i data-v-134867f8="" class="material-icons icon-10pt">directions</i></span>
+
+                                                      </div> -->
+                                                      <i class="fas fa-hand-point-right font-size-20pt"style="margin-right:5px;"></i>
+                                                      <div class="media-body"style="margin-left:10px;">
+
+
+                                                        <div class="d-flex flex-column">
+                                                          <p class="mb-0"><strong style="font-size:15px;" >Address</strong></p>
+                                                          <small class="js-lists-values-employee-email text-50"></small>
+                                                        </div>
+
+
+                                                      </div>
+                                                    </div>
+
+                                                  </td>
+
+
+                                                  <td style="border:0px;">
+
+                                                    <p style="margin:0 auto;">New York , USA</p>
+
+                                                  </td>
+
+
+                                                </tr>
+
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        <!-- END OF CONTENT -->
                           </div>
                       </div>
                       <div class="col-lg-6">
 
+                        <div class="card border-0 mb-lg-0">
+                            <div style="background-image: url(assets/images/achievements/flinto.png);"class="card-header  align-items-center ">
+                              <div style="text-align:center;"class="h5 text-white text-uppercase font-weight-normal m-0"><i class="fas fa-hand-point-right"style="margin-right:5px;"></i> About Me</div>
+                              <div style="padding:10px 20px 10px 20px;"class="text-white d-block mb-24pt"style="margin-top:20px;text-align:left;">As far as describing myself as an instructor<strong> honest, straight forward </strong>
+                                definitely not politically correct, <strong>opinionated , open minded</strong> to new ideas.I believe<strong> an instructor should not be that person who knows many things but one that make their subjects appear interesting to students</strong>.I try to make my lessons as <strong>real,relevant,fun
+                              </strong>and<strong> engaging</strong> as possible.</div>
+                            </div>
+                        </div>
 
-
-
-
-
-                          <div id="carouselExampleFade" class="carousel carousel-card slide mb-24pt">
-                              <div class="carousel-inner">
-
-                                  <div class="carousel-item active">
-
-                                      <a class="card border-0 mb-0" href="">
-                                          <img src="assets\images\achievements\flinto.png" alt="Flinto" class="card-img" style="max-height: 100%; width: initial;">
-                                          <div class="bg-primary" style="opacity: .5;"></div>
-                                          <span class="card-body d-flex flex-column align-items-center justify-content-center fullbleed">
-                                              <span class="row flex-nowrap">
-                                                  <span class="col-auto text-center d-flex flex-column justify-content-center align-items-left">
-                                                      <span class="h5 text-white text-uppercase font-weight-normal m-0 d-block"><i class="fas fa-hand-point-right"style="margin-right:5px;"></i> About Me</span>
-                                                      <span class="text-white d-block mb-24pt"style="margin-top:20px;text-align:left;">As far as describing myself as an instructor<strong> honest, straight forward </strong>definitely not politically correct, <strong>opinionated , open minded</strong> to new ideas.I believe<strong> an instructor should not be that person who knows many things but one that make their subjects appear interesting to students</strong>.I try to make my lessons as <strong>real,relevant,fun
-                                                      </strong>and<strong> engaging</strong> as possible.</span>
-                                                  </span>
-                                                  <span class="col d-flex flex-column">
-
-                                                  </span>
-                                              </span>
-
-                                          </span>
-                                      </a>
-
-                                  </div>
-
+                        <div style="margin-top:20px;"class="card border-0 mb-lg-0">
+                            <div style="background-image: url(assets/images/achievements/flinto.png);"class="card-header  align-items-center ">
+                              <div style="text-align:center;"class="h5 text-white text-uppercase font-weight-normal m-0"><i class="fas fa-address-book"style="margin-right:5px;"></i> Connect</div>
+                              <div style="padding:10px 20px 10px 20px;"class="text-white d-block mb-24pt"style="margin-top:20px;text-align:left;">I have been  working as an online instructor over 10 years of experince and always interested to help my students. Here â€™s how to reach out and connect to me and have an experince to gain and share knowledge.</div>
+                              <div style="text-align:center;"class="">
+                                <a href="" class="text-white fab fa-facebook-square font-size-32pt mr-8pt"></a>
+                                <a href="" class="text-white fab fa-linkedin font-size-32pt mr-8pt"></a>
+                                <a href="" class="text-white fab fa-instagram-square font-size-32pt mr-8pt"></a>
+                                <a href="" class="text-white fab fa-twitter-square font-size-32pt"></a>
                               </div>
-                          </div>
-                          <div id="carouselExampleFade" class="carousel carousel-card slide mb-24pt">
-                              <div class="carousel-inner">
 
-                                  <div class="carousel-item active">
-
-                                      <a class="card border-0 mb-0" href="">
-                                          <img src="assets\images\achievements\flinto.png" alt="Flinto" class="card-img" style="max-height: 100%; width: initial;">
-                                          <div class="bg-primary" style="opacity: .5;"></div>
-                                          <span class="card-body d-flex flex-column align-items-center justify-content-center fullbleed">
-                                              <span class="row flex-nowrap">
-                                                  <span class="col-auto text-center d-flex flex-column justify-content-center align-items-left">
-                                                      <span class="h5 text-white text-uppercase font-weight-normal m-0 d-block"><i class="fas fa-address-book"style="margin-right:5px;"></i> Contact Me</span>
-                                                      <span class="text-white d-block mb-24pt"style="margin-top:20px;text-align:left;">I have been  working as an online instructor over 10 years of experince and always interested to help my students. Here â€™s how to reach out and connect.</span>
-
-                                                  </span>
-
-                                              </span>
-
-                                          </span>
-                                          <a href="" class="text-accent fab fa-facebook-square font-size-24pt mr-8pt"></a>
-                                      </a>
-
-                                  </div>
-
-                              </div>
-                          </div>
-
+                            </div>
+                        </div>
 
                       </div>
                   </div>
-              </div><br>
-                <div class="container page__container">
+
+                  <div style="margin-top:30px;"class="page-separator">
+                    <div class="page-separator__text">Other Info</div>
+                  </div>
+                  <div class="card card-body mb-32pt">
                     <div class="row">
-                        <div class="col-md-6">
-                            <h4>About me</h4>
-                            <p>As far as describing myself as an instructor<strong> honest, straight forward </strong>definitely not politically correct, <strong>opinionated , open minded</strong> to new ideas.I believe<strong> an instructor should not be that person who knows many things but one that make their subjects appear interesting to students</strong>.I try to make my lessons as <strong>real,relevant,fun </strong>and<strong> engaging</strong> as possible.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Connect</h4>
-                            <p></p>
-                            <div class="d-flex align-items-center">
-                                <a href="" class="text-accent fab fa-facebook-square font-size-24pt mr-8pt"></a>
-                                <a href="" class="text-accent fab fa-twitter-square font-size-24pt"></a>
+
+                      <!-- OTHER INFO -->
+                      <div class="col-md-12 table-responsive" data-toggle="lists" data-lists-sort-by="js-lists-values-employee-name"
+                        data-lists-values='["js-lists-values-employee-name", "js-lists-values-employer-name", "js-lists-values-projects", "js-lists-values-activity", "js-lists-values-earnings"]'>
+                        <h4 style="margin-left:20px;text-decoration:underline;">Education details</h4>
+                        <table class="table mb-0 thead-border-top-0 table-nowrap">
+
+                          <tbody class="list" id="users">
+
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <i class="fas fa-user-graduate font-size-20pt"></i>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">PHD</strong></p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"> <strong>Computer Science</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>University of California</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2010-2013</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <i class="fas fa-user-graduate font-size-20pt"></i>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">M.Tech</strong></p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"> <strong>Computer Science</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>Stanford University</strong>  </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2008-2010</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <i class="fas fa-user-graduate font-size-20pt"></i>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">B.Tech</p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>Computer Science</strong>  </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>University of California</strong></p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2004-2007</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                          </tbody>
+                        </table>
+                            <h4 style="margin-left:20px;margin-top: 10px;text-decoration:underline;">Work History and Experience</h4>
+                        <table class="table mb-0 thead-border-top-0 table-nowrap">
+
+                          <tbody class="list" id="users">
+
+
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <div class="avatar avatar-sm mr-8pt">
+                                                <span class="avatar-title rounded bg-light text-black-100">PH</span>
+                                            </div>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">Professor and Head</strong></p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"> <strong>Department of Computer Science</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>University of California</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2013-current</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <div class="avatar avatar-sm mr-8pt">
+                                                <span class="avatar-title rounded bg-light text-black-100">AP</span>
+                                            </div>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">Assistant Professor</strong></p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"> <strong>Department of Computer Science</strong> </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>Stanford University</strong>  </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2010-2013</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                            <tr >
+
+
+                              <td style="border:0px;">
+
+                                <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                                  <div class="avatar avatar-sm mr-8pt">
+                                                  <span class="avatar-title rounded bg-light text-black-100">SD</span>
+                                              </div>
+                                  <div class="media-body"style="margin-left:15px;">
+
+
+                                    <div class="d-flex flex-column">
+                                      <p class="mb-0"><strong style="font-size:15px;">Software Developer</p>
+                                    </div>
+
+
+                                  </div>
+                                </div>
+
+                              </td>
+
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>Oracle (ORCL)</strong>  </p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>USA</strong></p>
+
+
+                              </td>
+                              <td style="border:none;">
+
+
+                                <p style="margin:0 auto;"><strong>2007-2008</strong></p>
+
+
+                              </td>
+
+
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4 style="margin-left:20px;margin-top: 10px;text-decoration:underline;">Awards and Achievements</h4>
+                    <table class="table mb-0 thead-border-top-0 table-nowrap">
+
+                      <tbody class="list" id="users">
+
+
+                        <tr >
+
+
+                          <td style="border:0px;">
+
+                            <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                              <i class="fas fa-award font-size-20pt"></i>
+                              <div class="media-body"style="margin-left:15px;">
+
+
+                                <div class="d-flex flex-column">
+                                  <p class="mb-0"><strong style="font-size:15px;">Gold Medalist in M.Tech(Computer Science) form Stanford University in 2010</strong></p>
+                                </div>
+
+
+                              </div>
                             </div>
-                        </div>
+
+                          </td>
+
+
+                        </tr>
+                        <tr >
+
+
+                          <td style="border:0px;">
+
+                            <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                              <i class="fas fa-award font-size-20pt"></i>
+                              <div class="media-body"style="margin-left:15px;">
+
+
+                                <div class="d-flex flex-column">
+                                  <p class="mb-0"><strong style="font-size:15px;">Best instructor award for excellent performance in department of Computer Science from University of California in 2012</strong></p>
+                                </div>
+
+
+                              </div>
+                            </div>
+
+                          </td>
+
+
+
+                        </tr>
+                        <tr >
+
+
+                          <td style="border:0px;">
+
+                            <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                               <i class="fas fa-award font-size-20pt"></i>
+                              <div class="media-body"style="margin-left:15px;">
+
+
+                                <div class="d-flex flex-column">
+                                  <p class="mb-0"><strong style="font-size:15px;">Association for the Advancement of Artificial Intelligence in international conference held in Malasiya in 2012</p>
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </td>
+
+                        </tr>
+                        <tr >
+
+
+                          <td style="border:0px;">
+
+                            <div class="media flex-nowrap align-items-center" style="white-space: nowrap;">
+                               <i class="fas fa-award font-size-20pt"></i>
+                              <div class="media-body"style="margin-left:15px;">
+
+
+                                <div class="d-flex flex-column">
+                                  <p class="mb-0"><strong style="font-size:15px;">Research for Analysis the diagonasis of cancer patients with Bioinformatics and Genosis data published in 2013</p>
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </td>
+
+                        </tr>
+                      </tbody>
+                    </table>
+                      </div>
+
                     </div>
-                </div>
+                  </div>
+              </div><br>
+
 
             </div>
 
@@ -633,7 +1210,7 @@
 
 
                     <a href="index.html" class="sidebar-brand ">
-                        <!-- <img class="sidebar-brand-icon" src="assets/images/illustration/teacher/128/white.svg" alt="Luma"> -->
+                        <!-- <img class="sidebar-brand-icon" src="assets/images/illustration/teacher/128/white.svg" alt="ILMS"> -->
 
                         <span class="avatar avatar-xl sidebar-brand-icon h-auto">
 
@@ -641,7 +1218,7 @@
 
                         </span>
 
-                        <span>Luma</span>
+                        <span>ILMS</span>
                     </a>
 
 
